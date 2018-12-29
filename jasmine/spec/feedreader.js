@@ -20,7 +20,7 @@ $(function() {
          * the rest of this project. What happens when you change
          * allFeeds in app.js to be an empty array and refresh the
          * page?
-         */
+         */  
         it('are defined', function() {
             expect(allFeeds).toBeDefined();
             expect(allFeeds.length).not.toBe(0);
